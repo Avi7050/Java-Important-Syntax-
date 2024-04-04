@@ -6,6 +6,7 @@ class MyThread extends Thread{
         }
     }
 }
+
 public class YeildMethod {
     public static void main(String[] args) {
         MyThread t = new MyThread();
