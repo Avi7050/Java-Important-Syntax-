@@ -43,11 +43,11 @@ class Test{
 public class SingletonClass{
     public static void main(String[] args) {
 
-        System.out.println("Ctreating Ist object");
+        System.out.println("Creating Ist object");
         Test t1 = Test.getTest();
         System.out.println(t1);
 
-        System.out.println("Ctreating 2nd object");
+        System.out.println("Creating 2nd object");
         Test t2 = Test.getTest();
         System.out.println(t2);
     }
